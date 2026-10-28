@@ -130,7 +130,7 @@ OS-Resource-Management-Simulator/
 
 *Note: The structure above represents the expected project layout. Actual files in each folder may vary.*
 
-## 6. Prerequisites
+## 6. Prequisites
 
 Before running the project, ensure you have:
 
