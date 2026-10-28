@@ -1,0 +1,108 @@
+2026-10-25 12:53:47,429 | INFO | Simulator started
+2026-10-25 12:53:47,430 | WARNING | Test warning
+2026-10-25 12:53:47,431 | ERROR | Test error
+2026-10-25 12:55:47,098 | INFO | OS Resource Management Simulator started
+2026-10-25 12:56:06,678 | INFO | CPU Scheduling: FCFS selected
+2026-10-25 12:56:10,861 | INFO | Memory Management: Comparing all algorithms
+2026-10-25 12:56:12,945 | INFO | Deadlock Avoidance: Banker’s algorithm started
+2026-10-25 12:56:12,947 | INFO | Banker's algorithm: Safe state. Sequence: P1 -> P3 -> P4 -> P0 -> P2
+2026-10-25 12:56:14,934 | INFO | Deadlock Avoidance: Banker’s algorithm started
+2026-10-25 12:56:14,936 | INFO | Banker's algorithm: Safe state. Sequence: P1 -> P3 -> P4 -> P0 -> P2
+2026-10-25 12:56:20,876 | INFO | Disk Scheduling: Comparing all algorithms
+2026-10-25 12:56:22,870 | INFO | OS Resource Management Simulator stopped
+2026-10-25 13:01:30,641 | INFO | Simulation report generated: simulation_report_20261025_130130.txt
+2026-10-25 13:05:30,799 | INFO | OS Resource Management Simulator started
+2026-10-25 13:05:35,773 | INFO | OS Resource Management Simulator stopped
+2026-10-25 13:07:13,935 | INFO | OS Resource Management Simulator started
+2026-10-25 13:07:24,718 | INFO | Report generation requested
+2026-10-25 13:07:24,730 | INFO | Simulation report generated: simulation_report_20261025_130724.txt
+2026-10-25 13:07:34,878 | INFO | OS Resource Management Simulator stopped
+2026-10-25 13:09:32,395 | INFO | OS Resource Management Simulator started
+2026-10-25 13:10:04,582 | INFO | CPU Scheduling: FCFS selected
+2026-10-25 13:11:23,712 | INFO | OS Resource Management Simulator stopped
+2026-10-28 08:20:46,882 | INFO | generated new fontManager
+2026-10-28 08:20:48,419 | INFO | OS Resource Management Simulator started
+2026-10-28 08:21:55,332 | INFO | Simulation report generated: simulation_report_20261028_082155.txt
+2026-10-28 08:21:58,852 | INFO | CSV report export requested
+2026-10-28 08:21:58,879 | INFO | CPU and disk CSV reports generated successfully
+2026-10-28 08:22:06,011 | INFO | CPU comparison chart requested
+2026-10-28 08:22:11,030 | INFO | CPU comparison chart saved: cpu_comparison_20261028_082207.png
+2026-10-28 08:23:14,634 | INFO | Disk comparison chart requested
+2026-10-28 08:23:18,946 | INFO | Disk comparison chart saved: disk_comparison_20261028_082315.png
+2026-10-28 08:23:22,279 | INFO | All comparison charts requested
+2026-10-28 08:23:26,465 | INFO | CPU comparison chart saved: cpu_comparison_20261028_082323.png
+2026-10-28 08:23:30,216 | INFO | Disk comparison chart saved: disk_comparison_20261028_082327.png
+2026-10-28 08:23:32,356 | INFO | OS Resource Management Simulator stopped
+2026-10-28 08:51:49,304 | INFO | OS Resource Management Simulator started
+2026-10-28 08:52:34,642 | INFO | OS Resource Management Simulator stopped
+2026-10-28 08:54:14,299 | INFO | OS Resource Management Simulator started
+2026-10-28 08:55:16,865 | INFO | All comparison charts requested
+2026-10-28 08:55:21,665 | INFO | CPU comparison chart saved: cpu_comparison_20261028_085518.png
+2026-10-28 08:55:25,807 | INFO | Disk comparison chart saved: disk_comparison_20261028_085522.png
+2026-10-28 08:55:41,049 | INFO | OS Resource Management Simulator stopped
+2026-10-28 08:58:22,563 | INFO | OS Resource Management Simulator started
+2026-10-28 08:59:12,395 | INFO | Simulation report generated: simulation_report_20261028_085912.txt
+2026-10-28 08:59:15,019 | INFO | CSV report export requested
+2026-10-28 08:59:15,044 | INFO | CPU and disk CSV reports generated successfully
+2026-10-28 08:59:16,698 | INFO | CPU comparison chart requested
+2026-10-28 08:59:21,898 | INFO | CPU comparison chart saved: cpu_comparison_20261028_085918.png
+2026-10-28 08:59:29,485 | INFO | Disk comparison chart requested
+2026-10-28 08:59:33,896 | INFO | Disk comparison chart saved: disk_comparison_20261028_085930.png
+2026-10-28 08:59:42,245 | INFO | All comparison charts requested
+2026-10-28 08:59:46,958 | INFO | CPU comparison chart saved: cpu_comparison_20261028_085943.png
+2026-10-28 08:59:51,370 | INFO | Disk comparison chart saved: disk_comparison_20261028_085947.png
+2026-10-28 08:59:52,948 | INFO | OS Resource Management Simulator stopped
+2026-10-28 09:12:18,200 | INFO | OS Resource Management Simulator started
+2026-10-28 09:13:39,467 | INFO | Simulation report generated: simulation_report_20261028_091339.txt
+2026-10-28 09:13:41,374 | INFO | CSV report export requested
+2026-10-28 09:13:41,406 | INFO | CPU and disk CSV reports generated successfully
+2026-10-28 09:13:43,592 | INFO | CPU comparison chart requested
+2026-10-28 09:13:46,744 | INFO | CPU comparison chart saved: cpu_comparison_20261028_091344.png
+2026-10-28 09:13:48,891 | INFO | Disk comparison chart requested
+2026-10-28 09:13:51,110 | INFO | Disk comparison chart saved: disk_comparison_20261028_091349.png
+2026-10-28 09:14:09,389 | INFO | All comparison charts requested
+2026-10-28 09:14:12,059 | INFO | CPU comparison chart saved: cpu_comparison_20261028_091410.png
+2026-10-28 09:14:14,366 | INFO | Disk comparison chart saved: disk_comparison_20261028_091412.png
+2026-10-28 09:15:18,598 | INFO | OS Resource Management Simulator stopped
+2026-10-28 09:19:06,475 | INFO | OS Resource Management Simulator started.
+2026-10-28 09:19:53,575 | INFO | Disk scheduling simulation completed.
+2026-10-28 09:20:14,986 | INFO | Disk scheduling simulation completed.
+2026-10-28 09:20:47,395 | INFO | OS Resource Management Simulator stopped.
+2026-10-28 09:23:38,762 | INFO | OS Resource Management Simulator started.
+2026-10-28 09:24:02,506 | INFO | Simulation report generated: simulation_report_20261028_092402.txt
+2026-10-28 09:24:02,508 | INFO | Report/visualization operation completed.
+2026-10-28 09:24:04,590 | INFO | CPU and disk CSV reports generated successfully
+2026-10-28 09:24:04,593 | INFO | Report/visualization operation completed.
+2026-10-28 09:24:08,851 | INFO | CPU comparison chart saved: cpu_comparison_20261028_092406.png
+2026-10-28 09:24:08,852 | INFO | Report/visualization operation completed.
+2026-10-28 09:24:38,368 | INFO | Disk comparison chart saved: disk_comparison_20261028_092436.png
+2026-10-28 09:24:38,369 | INFO | Report/visualization operation completed.
+2026-10-28 09:24:46,038 | INFO | CPU comparison chart saved: cpu_comparison_20261028_092443.png
+2026-10-28 09:24:48,527 | INFO | Disk comparison chart saved: disk_comparison_20261028_092446.png
+2026-10-28 09:24:48,528 | INFO | Report/visualization operation completed.
+2026-10-28 09:25:26,302 | ERROR | CPU scheduling failed.
+Traceback (most recent call last):
+  File "/mnt/f/OS-Resource-Management-Simulator/main.py", line 97, in cpu_menu
+    result = fcfs(processes)
+  File "/mnt/f/OS-Resource-Management-Simulator/modules/cpu_scheduling.py", line 4, in fcfs
+    processes = sorted(processes, key=lambda p: (p["arrival"], p["pid"]))
+  File "/mnt/f/OS-Resource-Management-Simulator/modules/cpu_scheduling.py", line 4, in <lambda>
+    processes = sorted(processes, key=lambda p: (p["arrival"], p["pid"]))
+                                                 ~^^^^^^^^^^^
+KeyError: 'arrival'
+2026-10-28 09:25:31,495 | INFO | OS Resource Management Simulator stopped.
+2026-10-28 09:28:47,588 | INFO | OS Resource Management Simulator started.
+2026-10-28 09:29:10,802 | WARNING | Invalid CPU scheduling input: display_results() missing 2 required positional arguments: 'results' and 'gantt'
+2026-10-28 09:37:25,602 | INFO | OS Resource Management Simulator stopped.
+2026-10-28 09:38:07,961 | INFO | OS Resource Management Simulator started
+2026-10-28 09:39:45,634 | INFO | Simulation report generated: simulation_report_20261028_093945.txt
+2026-10-28 09:39:47,630 | INFO | CPU and disk CSV reports generated successfully
+2026-10-28 09:39:47,631 | INFO | CSV report export completed
+2026-10-28 09:39:53,306 | INFO | CPU comparison chart saved: cpu_comparison_20261028_093950.png
+2026-10-28 09:39:53,307 | INFO | CPU chart generation completed
+2026-10-28 09:39:56,568 | INFO | Disk comparison chart saved: disk_comparison_20261028_093954.png
+2026-10-28 09:39:56,569 | INFO | Disk chart generation completed
+2026-10-28 09:40:20,627 | INFO | CPU comparison chart saved: cpu_comparison_20261028_094018.png
+2026-10-28 09:40:23,478 | INFO | Disk comparison chart saved: disk_comparison_20261028_094021.png
+2026-10-28 09:40:23,479 | INFO | All charts generation completed
+2026-10-28 09:40:25,499 | INFO | OS Resource Management Simulator stopped

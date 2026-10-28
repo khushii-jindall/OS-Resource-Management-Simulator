@@ -1,0 +1,13 @@
+﻿Algorithm,PID,Arrival Time,Burst Time,Completion Time,Waiting Time,Turnaround Time,Average Waiting Time,Average Turnaround Time
+FCFS,P1,0,5,5,0,5,4.0,6.75
+FCFS,P2,1,3,8,4,7,4.0,6.75
+FCFS,P3,2,1,9,6,7,4.0,6.75
+FCFS,P4,3,2,11,6,8,4.0,6.75
+SJF,P1,0,5,5,0,5,3.25,6.0
+SJF,P3,2,1,6,3,4,3.25,6.0
+SJF,P4,3,2,8,3,5,3.25,6.0
+SJF,P2,1,3,11,7,10,3.25,6.0
+Round Robin (Q=2),P1,0,5,11,6,11,4.5,7.25
+Round Robin (Q=2),P2,1,3,10,6,9,4.5,7.25
+Round Robin (Q=2),P3,2,1,5,2,3,4.5,7.25
+Round Robin (Q=2),P4,3,2,9,4,6,4.5,7.25

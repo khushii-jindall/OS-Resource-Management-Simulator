@@ -1,0 +1,148 @@
+OS RESOURCE MANAGEMENT SIMULATOR
+=======================================================
+Report generated: 2026-10-25 13:01:30
+
+This report contains results from the configured sample inputs.
+
+=======================================================
+1. CPU SCHEDULING
+=======================================================
+
+FCFS
+---------------------------------------------
+PID     AT      BT      CT      WT      TAT     
+P1      0       5       5       0       5       
+P2      1       3       8       4       7       
+P3      2       1       9       6       7       
+P4      3       2       11      6       8       
+Average Waiting Time: 4.00
+Average Turnaround Time: 6.75
+Gantt Chart: P1 (0-5) | P2 (5-8) | P3 (8-9) | P4 (9-11)
+
+SJF (Non-preemptive)
+---------------------------------------------
+PID     AT      BT      CT      WT      TAT     
+P1      0       5       5       0       5       
+P2      1       3       11      7       10      
+P3      2       1       6       3       4       
+P4      3       2       8       3       5       
+Average Waiting Time: 3.25
+Average Turnaround Time: 6.00
+Gantt Chart: P1 (0-5) | P3 (5-6) | P4 (6-8) | P2 (8-11)
+
+Round Robin (Quantum = 2)
+---------------------------------------------
+PID     AT      BT      CT      WT      TAT     
+P1      0       5       11      6       11      
+P2      1       3       10      6       9       
+P3      2       1       5       2       3       
+P4      3       2       9       4       6       
+Average Waiting Time: 4.50
+Average Turnaround Time: 7.25
+Gantt Chart: P1 (0-2) | P2 (2-4) | P3 (4-5) | P1 (5-7) | P4 (7-9) | P2 (9-10) | P1 (10-11)
+
+=======================================================
+2. MEMORY MANAGEMENT
+=======================================================
+
+First Fit
+---------------------------------------------
+=============================================
+First Fit Memory Allocation
+=============================================
+Process     Size        Block       Status
+P1          212         B2          Allocated
+P2          417         B5          Allocated
+P3          112         B2          Allocated
+P4          426         -           Not Allocated
+
+Remaining memory in each block:
+Block B1: 100 units
+Block B2: 176 units
+Block B3: 200 units
+Block B4: 300 units
+Block B5: 183 units
+
+Processes allocated: 3/4
+
+Best Fit
+---------------------------------------------
+=============================================
+Best Fit Memory Allocation
+=============================================
+Process     Size        Block       Status
+P1          212         B4          Allocated
+P2          417         B2          Allocated
+P3          112         B3          Allocated
+P4          426         B5          Allocated
+
+Remaining memory in each block:
+Block B1: 100 units
+Block B2: 83 units
+Block B3: 88 units
+Block B4: 88 units
+Block B5: 174 units
+
+Processes allocated: 4/4
+
+Worst Fit
+---------------------------------------------
+=============================================
+Worst Fit Memory Allocation
+=============================================
+Process     Size        Block       Status
+P1          212         B5          Allocated
+P2          417         B2          Allocated
+P3          112         B5          Allocated
+P4          426         -           Not Allocated
+
+Remaining memory in each block:
+Block B1: 100 units
+Block B2: 83 units
+Block B3: 200 units
+Block B4: 300 units
+Block B5: 276 units
+
+Processes allocated: 3/4
+
+=======================================================
+3. DEADLOCK AVOIDANCE - BANKER'S ALGORITHM
+=======================================================
+Available resources: [3, 3, 2]
+
+Need Matrix (Maximum - Allocation):
+Process     A       B       C       
+P0          7       4       3       
+P1          1       2       2       
+P2          6       0       0       
+P3          0       1       1       
+P4          4       3       1       
+
+System status: SAFE
+Safe sequence: P1 -> P3 -> P4 -> P0 -> P2
+
+=======================================================
+4. DISK SCHEDULING
+=======================================================
+
+FCFS
+---------------------------------------------
+Request service order: 98 -> 183 -> 37 -> 122 -> 14 -> 124 -> 65 -> 67
+Head movement path: 53 -> 98 -> 183 -> 37 -> 122 -> 14 -> 124 -> 65 -> 67
+Total head movement: 640 cylinders
+
+SSTF
+---------------------------------------------
+Request service order: 65 -> 67 -> 37 -> 14 -> 98 -> 122 -> 124 -> 183
+Head movement path: 53 -> 65 -> 67 -> 37 -> 14 -> 98 -> 122 -> 124 -> 183
+Total head movement: 236 cylinders
+
+SCAN (Direction: left)
+---------------------------------------------
+Request service order: 37 -> 14 -> 65 -> 67 -> 98 -> 122 -> 124 -> 183
+Head movement path: 53 -> 37 -> 14 -> 0 -> 65 -> 67 -> 98 -> 122 -> 124 -> 183
+Total head movement: 236 cylinders
+
+=======================================================
+END OF REPORT
+=======================================================
